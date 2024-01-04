@@ -1,0 +1,22 @@
+{
+  "name": "real_estate",
+  "version": "1.0.0",
+  "description": "A real estate daaps",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "lint": "solhint 'contracts/*.sol'",
+    "lint:fix": "solhint 'contracts/**/*.sol' --fix",
+    "format": "npx prettier --write ."
+  },
+  "author": "okwuosa chijioke",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@openzeppelin/contracts": "^5.0.1",
+    "hardhat": "^2.19.4",
+    "prettier": "^3.1.1",
+    "prettier-plugin-solidity": "^1.3.1",
+    "solhint": "^4.0.0"
+  }
+}
