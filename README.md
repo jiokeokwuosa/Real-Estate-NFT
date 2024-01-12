@@ -25,7 +25,7 @@ To install and run this project you would need to have installed:
 
 To run:
 ```
-$ git clone https://github.com/jiokeokwuosa/Real-Estate-NFTgit
+$ git clone https://github.com/jiokeokwuosa/Real-Estate-NFT.git
 $ cd Real-Estate-NFT/frontend
 $ create .env and add the necessarily values
 $ npm install
